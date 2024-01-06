@@ -5,9 +5,9 @@
 This Power Apps Component Framework (PCF) control is designed to display data in a tabular format. It dynamically generates a HTML table based on the dataset provided, ideal for rendering structured data like lists or catalogs.
 
 ## Sample output
-In test harness
+### In test harness
 ![Sample of output in test harness](image.png)
-In a model driven app
+### In a model driven app
 ![Sample of output in a model driven app](image-1.png)
 
 ## Features
@@ -25,6 +25,8 @@ In a model driven app
 3. Run `npm install` to install dependencies.
 4. Build the control by running `npm run build`.
 5. A Sample CSV is included for you to test this PCF. 
+6. Authenticate agaisnt dataverse using the terminal and pac.
+7. Push the PCF to dataverse with `pac pcf push --publisher-prefix itweedie`
 
 ## Usage
 After building the control, it can be imported into your Power Apps environment. It can be used in any model-driven or canvas app where you need to display a dataset in a tabular format.
